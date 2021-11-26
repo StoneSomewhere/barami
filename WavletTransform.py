@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-def wavlet_transform(index_list, wavefunc='db4', lv=1, m=1, n=1, plot=False):
+def wavlet_transform(index_list, wavefunc='db4', lv=4, m=1, n=2, plot=False):
     '''
     WT: Wavelet Transformation Function
     index_list: Input Sequence;
